@@ -17,9 +17,9 @@ int main()
     
     // сума елементів на парних місцях (нумерація з 0)
     int summa = 0;
-    for(int i = 1; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
-        if(a[i] % 2 = 0)
+        if(a[i] % 2 == 0)
         {
             summa += a[i];
         }
