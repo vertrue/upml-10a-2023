@@ -16,8 +16,8 @@ int main()
     }
     
     // сума елементів, які менші за 5
-    intl summa = 0
-    for(int i = 1; i < n; i++)
+    int summa = 0;
+    for(int i = 0; i < n; i++)
     {
         if(a[i] < 5)
         {
