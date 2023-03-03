@@ -29,7 +29,7 @@ int main()
     cout << min_el << endl;
 }
 
-//реалізую функцію min
+//реалізую функцію
 int min(int min_el,int i){
     if (min_el>i){
         return i;
