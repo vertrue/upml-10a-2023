@@ -16,12 +16,12 @@ int main()
     }
     
     // чи є хоча б один нуль
-    bool flag = true;
-    for(int i = 1; i < n; i++)
+    bool flag = false;
+    for(int i = 0; i < n; i++)
     {
-        if(a[i] = 0)
+        if(a[i] == 0)
         {
-            flag = false;
+            flag = true;
         }
     }
     
@@ -30,5 +30,6 @@ int main()
         cout << "є" << endl;
     else
         cout << "нема" << endl;
+    return 0;
 }
 
