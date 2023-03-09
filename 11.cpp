@@ -9,7 +9,7 @@ int main()
     cin >> n;
     
     // створення масиву
-    int a[n]
+    int a[n];
     for(int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -17,16 +17,16 @@ int main()
     
     // чи є хоча б 3 нулі
     int zeros = 0;
-    for(int i = 1; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
-        if(a[i] = 0)
+        if(a[i] == 0)
         {
-            zeros += 1
+            zeros += 1;
         }
     }
     
     // виведення
-    if(zeros > 3)
+    if(zeros >= 3)
         cout << "є" << endl;
     else
         cout << "нема" << endl;
