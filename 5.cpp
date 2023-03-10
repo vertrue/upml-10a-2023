@@ -21,10 +21,10 @@ int main()
     {
         if(a[i] % 2 == 0)
         {
-            summa += b[i];
+            summa += a[i];
         }
     }
     
     // виведення
-    cout << summa << endl
+    cout << summa << endl;
 }
