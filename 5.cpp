@@ -26,5 +26,5 @@ int main()
     }
     
     // виведення
-    cout << summa << endl
+    cout << summa << endl;
 }
