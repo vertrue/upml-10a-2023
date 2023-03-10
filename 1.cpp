@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math>
+#include <сmath>
 
 using namespace std;
 
@@ -18,7 +18,7 @@ int main()
     
     // знаходження максимуму
     int max_el = 0;
-    for(int i = 1; i < n; i++)
+    for(int i = 0; i < n; i++)
     {
         max_el = max(max_el, a[i]);
     }
