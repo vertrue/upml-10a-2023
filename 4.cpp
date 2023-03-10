@@ -16,7 +16,7 @@ int main()
     }
     
     // сума непарних елементів
-    int summa = 0
+    int summa = 0;
     for(int i = 0; i <= n; i++)
     {
         if(a[i] % 2 == 0)
@@ -26,5 +26,5 @@ int main()
     }
     
     // виведення
-    cout << summa << endl
+    cout << summa << endl;
 }
