@@ -1,9 +1,9 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
-//створюю функцію для порівняння елементів. Повертає менший з них
-int min(int min_el,int i);
+
 
 int main()
 {
@@ -22,16 +22,10 @@ int main()
     int min_el = 0;
     for(int i = 1; i < n; i++)
     {
-        min_el = min(min_el, a[i]);
+        min_el = fmin(min_el, a[i]);
     }
     
     // виведення максимального елемента
     cout << min_el << endl;
 }
 
-//реалізую функцію
-int min(int min_el,int i){
-    if (min_el>i){
-        return i;
-    }
-}
