@@ -1,9 +1,7 @@
 #include <iostream>
-#include <cmath>
+#include <math>
 
 using namespace std;
-
-
 
 int main()
 {
@@ -22,10 +20,9 @@ int main()
     int min_el = 0;
     for(int i = 1; i < n; i++)
     {
-        min_el = fmin(min_el, a[i]);
+        min_el = min(min_el, a[i])
     }
     
     // виведення максимального елемента
     cout << min_el << endl;
 }
-
