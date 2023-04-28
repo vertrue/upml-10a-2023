@@ -11,7 +11,7 @@ def v3(n, a):
     ansv = 0
 
     for i in a:
-        if a[i] == 0:
+        if i == 0:
             ansv += 1
 
     return ansv
@@ -21,8 +21,8 @@ def v4(n, a):
     ansv = 0
 
     for i in a:
-        if a[i] % 2 != 0:
-            ansv += a[i]
+        if i % 2 != 0:
+            ansv += i
 
     return ansv
 
@@ -31,8 +31,8 @@ def v5(n, a):
     ansv = 0
 
     for i in a:
-        if a[i] % 2 == 0:
-            ansv += a[i]
+        if i % 2 == 0:
+            ansv += i
 
     return ansv
 
@@ -40,7 +40,7 @@ def v5(n, a):
 def v6(n, a):
     ansv = 0
 
-    for i in a:
+    for i in range(len(a)):
         if i % 2 != 0:
             ansv += a[i]
 
@@ -50,7 +50,7 @@ def v6(n, a):
 def v7(n, a):
     ansv = 0
 
-    for i in a:
+    for i in range(len(a)):
         if i % 2 == 0:
             ansv += a[i]
 
@@ -84,7 +84,7 @@ def v11(n, a):
     zeros = 0
 
     for i in a:
-        if a[i] == 0:
+        if i == 0:
             zeros += 1
 
     if zeros >= 3:
